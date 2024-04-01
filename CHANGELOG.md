@@ -8,7 +8,14 @@ A formátum a [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) formátum
 
 ### Hozzáadva
 
-- 
+- index.html létrehozása. Alap HTMl szerkezet létrehozása, és a <head> részben történő bekötések létrehozása a betűtípusok számára
+- style.scss létrehozása. Stílusok deklarálása változókban. CSS reset létrehozása.
+- script.js létrehozása. 
+- README.md létrehozása. A project dokumentáció szövegének létrehozása.
+- CHANGELOG.md létrehozása. Kezdeti lépések dokumentálása.
+- LICENSE létrehozása GitHub felületen.
+- .gitigone létrehozása GitHub felületen.
+- Fájlrendszer létrehozása. (assets,img)
 
 ### Módosítva
 
