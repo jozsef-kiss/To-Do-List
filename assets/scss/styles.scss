@@ -2,33 +2,33 @@
 
   // Szín
 
-  $dominant: #878AF5;
-  $accent: #666AF6;
-  $support_1: #31446C;
-  $support_2: #F5A921;
-  $support_3: #F4863C;
+  $dominant-color: #878AF5;
+  $accent-color: #666AF6;
+  $support_1-color: #31446C;
+  $support_2-color: #F5A921;
+  $support_3-color: #F4863C;
 
   // Betűtípus
 
-  $poppins: 'Poppins', sans-serif;
-  $openSans: 'OpenSans', sans-serif;
+  $poppins-font-family: 'Poppins', sans-serif;
+  $openSans-font-family: 'OpenSans', sans-serif;
 
   // Betűtípus vastagság
 
-  $poppinsBold: 700;
-  $poppinsSemiBold: 600;
-  $poppinsMedium: 500;
-  $poppinsRegular: 400;
+  $poppins-weight-bold: 700;
+  $poppins-weight-semiBold: 600;
+  $poppins-weight-Mmdium: 500;
+  $poppins-weight-regular: 400;
 
   // Betűméret
 
-  $poppinsText: 16px;
-  $poppinsHeading1: 26px;
-  $poppinsHeading2: 24px;
-  $poppinsHeading3: 21px;
-  $poppinsHeading4: 18px;
-  $poppinsSubheading1: 21px;
-  $poppinsSubheading3: 16px;
+  $poppins-size-text: 16px;
+  $poppins-size-heading1: 26px;
+  $poppins-size-heading2: 24px;
+  $poppins-size-heading3: 21px;
+  $poppins-size-heading4: 18px;
+  $poppins-size-subheading1: 21px;
+  $poppins-size-subheading3: 16px;
   
 
 // ---------------CSS RESET--------------- //
@@ -40,11 +40,11 @@
   }
   
   body {
-    font-family: $poppins;
-    font-weight: $poppinsRegular;
+    font-family: $poppins-font-family;
+    font-weight: $poppins-weight-regular;
     line-height: 1.6;
-    font-size: $poppinsText;
-    color: $support_1;
+    font-size: $poppins-size-text;
+    color: $support_1-color;
     background-color: #fff;
   }
   
@@ -54,8 +54,8 @@
   }
   
   a {
-    color: $dominant;
-    font-family: $openSans;
+    color: $dominant-color;
+    font-family: $openSans-font-family;
     text-decoration: none;
   }
 
