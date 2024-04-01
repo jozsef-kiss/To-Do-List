@@ -26,7 +26,7 @@ A To-Do-App egy egyszerű, webalapú feladatkezelő alkalmazás, amely lehetőv�
 - Sötét Mód
 - Exportálás/Importálás Funkció
 
-### Fejlesztői környezet
+## Fejlesztői környezet
 
 A projekt a következő technológiákat és nyelveket használja:
 
