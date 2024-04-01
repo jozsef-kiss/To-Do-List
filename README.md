@@ -26,6 +26,14 @@ A To-Do-App egy egyszerű, webalapú feladatkezelő alkalmazás, amely lehetőv�
 - Sötét Mód
 - Exportálás/Importálás Funkció
 
+### Fejlesztői környezet
+
+A projekt a következő technológiákat és nyelveket használja:
+
+- **HTML**: A weboldalak struktúrájának meghatározására.
+- **SCSS**: Dinamikus stílusok létrehozására, amelyeket CSS-re fordítok a böngészők számára.
+- **JavaScript**: Interaktív elemek hozzáadására a felhasználói felülethez.
+
 ## Kezdés
 
 Ezek az utasítások végigvezetnek a To-Do-App helyi példányának beállításán és futtatásán fejlesztési célból.
@@ -38,12 +46,13 @@ A To-Do-App futtatásához csak egy modern webböngészőre van szükséged.
 
 1. Klónozd a repo-t a helyi gépedre:
    
-   git clone https://github.com/<your-username>/To-Do-App.git
+   git clone https://github.com/jozsef-kiss/to-do-app.git
 
 2. Nyisd meg az index.html fájlt a böngésződben.
 
 ## Használat
-A To-Do-App használata egyszerű. Írd be a teendődet a beviteli mezőbe, majd nyomj az "Add" gombra a listához való hozzáadáshoz. A feladatok mellett található "Delete" gombbal törölheted a már befejezett teendőket.
+A To-Do-App használata egyszerű. Írd be a teendődet a beviteli mezőbe, majd nyomj a "Hozzáad" gombra a listához való hozzáadáshoz. A feladatok mellett található "Törlés" gombbal törölheted a már befejezett teendőket.
+A további funkciók fejlesztés alatt állnak.
 
 ## Hozzájárulás
 A hozzájárulásokat mindig szívesen fogadok. Ha szeretnél hozzájárulni a projekt fejlesztéséhez, kérjük, először beszéljük meg az ötletedet egy issue-ban, mielőtt pull requestet indítanál.
