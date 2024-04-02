@@ -7,6 +7,8 @@
   $support_1-color: #31446C;
   $support_2-color: #F5A921;
   $support_3-color: #F4863C;
+  $red-color: #F55232;
+  $green-color: #6CA678;
 
   // Betűtípus
 
@@ -17,7 +19,7 @@
 
   $poppins-weight-bold: 700;
   $poppins-weight-semiBold: 600;
-  $poppins-weight-Mmdium: 500;
+  $poppins-weight-medium: 500;
   $poppins-weight-regular: 400;
 
   // Betűméret
@@ -53,10 +55,41 @@
     height: auto;
   }
   
+  //Linkek
+
   a {
     color: $dominant-color;
     font-family: $openSans-font-family;
+    font-size: $poppins-size-text;
     text-decoration: none;
+  }
+
+  //Heading 1
+
+  h1 {
+    font-size: $poppins-size-heading1;
+    font-weight: $poppins-weight-bold;
+  }
+
+  //Heading 2
+
+  h2 {
+    font-size: $poppins-size-heading2;
+    font-weight: $poppins-weight-semiBold;
+  }
+
+  //Heading 3
+
+  h3 {
+    font-size: $poppins-size-heading3;
+    font-weight: $poppins-weight-medium;
+  }
+
+  //Heading 4
+
+  h4 {
+    font-size: $poppins-size-heading4;
+    font-weight: $poppins-weight-medium;
   }
 
   
