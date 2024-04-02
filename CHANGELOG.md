@@ -17,12 +17,25 @@ A formátum a [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) formátum
 - .gitigone létrehozása GitHub felületen.
 - Fájlrendszer létrehozása. (assets,img)
 
+
+## [0.1.0] - 2024-04-02
+
+### Hozzáadva
+
+- SCSS: 
+    - Változók: egyedi piros és zöld szín hozzáadva.
+    - H1,H2,H3,H4 hozzáadása: font-size és font-weight a változókból.
+
+
 ### Módosítva
 
-- 
+- SCSS: 
+    - <a> tag: font-size frissítés.
+
 
 ### Javítva
 
-- 
+- SCSS: 
+    - $poppins-weight-mMdium változó nevének javítása, "$poppins-weight-medium"-ra.
 
 
