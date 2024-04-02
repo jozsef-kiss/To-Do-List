@@ -39,3 +39,18 @@ A formátum a [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) formátum
     - $poppins-weight-mMdium változó nevének javítása, "$poppins-weight-medium"-ra.
 
 
+## [0.1.0] - 2024-04-03
+
+### Hozzáadva
+
+- HTML: 
+    - register.html létrehozása. / Regisztrációs Oldal 
+    - dashboard.html létrehozása. / Felhasználói felület
+    - todos.html létrehozása. / Teendők listázása
+    - calendar.html létrehozása. / Naptár nézet
+
+
+
+
+
+
