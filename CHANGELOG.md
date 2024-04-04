@@ -49,6 +49,13 @@ A formátum a [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) formátum
     - calendar.html létrehozása. / Naptár nézet
 
 
+## [0.2.0] - 2024-04-04
+
+### Hozzáadva
+- HTML struktúra létrehozása:
+    - index.html: Az oldal alap struktúrájának létrehozása. (főkép, üdvözlő szöveg bejelentkezési form, regisztációs link) 
+    - register.html: Az oldal alap struktúrájának létrehozása. (főkép, üdvözlő szöveg regisztrációs form, bejelentkezés link) 
+
 
 
 
