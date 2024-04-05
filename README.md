@@ -1,6 +1,6 @@
 # To-Do-App
 
-## Verzió: 0.1.0
+## Verzió: 0.3.0
 
 A To-Do-App egy egyszerű, webalapú feladatkezelő alkalmazás, amely lehetővé teszi a felhasználók számára, hogy nyomon követhessék napi teendőiket. Ez a projekt JavaScriptet, HTML-t és SCSS-t használ a dinamikus felhasználói interfész létrehozásához, és bemutatja az alapvető webfejlesztési koncepciókat, beleértve a DOM manipulációt, az eseménykezelést és az aszinkron programozást.
 
