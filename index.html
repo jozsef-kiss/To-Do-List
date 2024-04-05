@@ -4,8 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>To-Do-App</title>
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <!-- CSS -->
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="./assets/css/styles.css">
     <!-- Betűtípus -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -16,33 +18,75 @@
 
 </head>
 <body>
-     <!-- Főkép -->
-    <img src="" alt="main image">
-
-    <!-- Üdvözlő szöveg -->
-    <h1>Szia, jó látni újra!</h1>
-
-    <!-- Bejelentkezés form -> input / submit -->
-    <form action="">
-
-        <!-- Felhasználónév bekérés -->
-        <label for="username">Felhaszálónév</label>
-        <input type="text">
-
-        <!-- Jelszó bekérés -->
-        <label for="password">Jelszó</label>
-        <input type="text">
-
-        <!-- Elfelejtett jelszó -->
-        <a href="">Elfelejtetted a jelszavad?</a>
-
-        <!-- Submit gomb -->
-        <button>Bejelentkezés</button>
-    </form>
-
-        <!-- Regisztráció -->
-        <p>Nincs fiókod? <a href="">Regisztrálj most!</a></p>
+    <div class="login-container container-lg text-center d-flex justify-content-center align-items-center flex-column" style="height: 100vh;">
         
+        <!-- Border -->
+        <div class="inner-container p-5">
+        
+            <div class="row mb-5">
+            <div class="col">
+                <!-- Főkép -->
+                <img id="logo" src="./assets/img/logo.svg" alt="main image">
+            </div>
+        </div>
+        <div class="row mb-5">
+            <div class="col">
+                <!-- Üdvözlő szöveg -->
+                <h1>Szia, jó újra látni!</h1>
+            </div>
+        </div>
+        
+        <!-- Bejelentkezés form -> input / submit -->
+        <div class="row">
+            <div class="col">   
+                <form action="">
+
+                    <!-- Felhasználónév bekérés -->
+                    <div class="row mb-1">
+                        <label for="username">Felhasználónév</label>
+                    </div>
+                    <div class="row mb-2">
+                        <div class="col">
+                            <input type="text">
+                        </div>
+                    </div>
+                    
+                    <!-- Jelszó bekérés -->
+                    <div class="row mb-1">
+                        <label for="password">Jelszó</label>
+                    </div>
+                    <div class="row mb-2">
+                        <div class="col">
+                            <input type="text">
+                        </div>
+                    </div>
+
+                    <!-- Elfelejtett jelszó -->
+                    <div class="row mb-5">
+                        <div class="col">
+                            <a href="">Elfelejtetted a jelszavad?</a>
+                        </div>
+                    </div>
+                    
+                    <!-- Submit gomb -->
+                    <div class="row mb-5">
+                        <div class="col">
+                            <button class="login-btn">Bejelentkezés</button>
+                        </div>
+                    </div>      
+                </form>          
+            </div> 
+        </div>
+
+        <div class="row">
+            <div class="col">
+                <!-- Regisztráció -->
+                <p>Nincs fiókod? <a href="./register.html">Regisztrálj most!</a></p>
+            </div>
+        </div>         
+    </div>
+    </div> 
     <script src="./script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>
