@@ -92,9 +92,42 @@
     font-weight: $poppins-weight-medium;
   }
 
-  
 
-
+// ---------------INDEX.HTML--------------- //
   
+  //Login-container / Border-container
+
+  .inner-container {
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+  }
+
+  //Input stílus
+
+  input {
+    border: 1.5px solid #E4E7EB;
+    border-radius: 16px;
+    background-color: #F4F8FB;
+    height: 40px;
+  }
+
+  //Login-gomb stílus
+
+  .login-btn {
+    border: 1px solid #666AF6;
+    border-radius: 30px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+    background-color: #666AF6;
+    color: white;
+    height: 50px;
+    width: 150px;
+  }
+
+  //Logo - Főkép
+
+  #logo {
+    width: 40vh;
+    height: 20vh;
+  }
   
   
