@@ -57,6 +57,23 @@ A formátum a [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) formátum
     - register.html: Az oldal alap struktúrájának létrehozása. (főkép, üdvözlő szöveg, regisztrációs form, bejelentkezés link) 
 
 
+## [0.3.0] - 2024-04-05
+
+### Hozzáadva
+
+- HTML:
+    - index.html és register.html:
+        - Bootstrap bekötése.
+        - BS oszlopok, sorok és margó hozzáadása a containerekhez.
+
+- CSS/ SCSS:
+    - Box shadow hozzáadása a login containerhez. 
+    - Input stílus hozzáadása.
+    - Login-gomb stílus hozzáadása.
+    - Logo elhelyezése.
+    
+
+
 
 
 
