@@ -71,6 +71,24 @@ A formátum a [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) formátum
     - Input stílus hozzáadása.
     - Login-gomb stílus hozzáadása.
     - Logo elhelyezése.
+
+## [0.3.0] - 2024-04-06
+
+### Hozzáadva
+
+- dashboard.html:
+    - Struktúra felépítése:
+        -  To-do szerkesztő oldal elérése 
+        -  Profil-kép
+        -  Dátum kiírása
+        -  Dashboard kiírása
+        -  Lista és naptár kiválasztása
+        -  Projektek
+        -  Címkék
+        -  Státusz címkék
+  
+    
+
     
 
 
