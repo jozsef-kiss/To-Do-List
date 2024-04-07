@@ -87,7 +87,13 @@ A formátum a [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) formátum
         -  Címkék
         -  Státusz címkék
   
-    
+## [0.3.1] - 2024-04-07
+
+
+### Javítva
+
+- dashboard.html:
+    - Osztály nevek változtatása "dash" helyett "dashboard"-ra.
 
     
 
